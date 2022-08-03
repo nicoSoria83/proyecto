@@ -1,86 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-.botonera {
-  background-color: rgb(37, 238, 234);
-  padding: 5px;
-  display: flex;
-  justify-content: space-between;
-}
-.botonera img {
-  width: 7%;
-}
-.botonera ul {
-  display: flex;
-}
-.botonera ul li {
-  list-style: none;
-}
-.botonera ul li a {
-  color: #F9F5F5;
-  font-family: "roboto", sans-serif;
-  font-size: 1em;
-}
-.botonera ul li a:hover {
-  color: #1B1B1B;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 4 | @import "_mixins";
+ *   |         ^^^^^^^^^
+ *   '
+ *   scss\main.scss 4:9  root stylesheet */
 
-h1,
-h2,
-h3 {
-  font-family: "roboto", sans-serif;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 4 \2502  @import \"_mixins\";\d\a   \2502          ^^^^^^^^^\a   \2575 \a   scss\\main.scss 4:9  root stylesheet";
 }
-
-h1 {
-  font-size: 3em;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-h3 {
-  font-size: 1em;
-}
-
-p {
-  color: #1B1B1B;
-  line-height: 2em;
-  font-family: "roboto", sans-serif;
-  font-size: 1.6em;
-}
-
-.map-container {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-.map-container iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-.p-catalogo {
-  font-size: 1em;
-}
-
-.btn-color1 {
-  background-color: rgb(44, 158, 181);
-  color: white;
-}
-
-.svg__size {
-  width: 32px;
-}
-.svg__size img:hover {
-  color: #F9F5F5;
-}
-
-.footer {
-  background: rgb(44, 158, 181);
-  position: bottom;
-}
-
-/*# sourceMappingURL=main.css.map */
