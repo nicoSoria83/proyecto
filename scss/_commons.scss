@@ -1,0 +1,57 @@
+//commons
+
+h1,
+h2,
+h3{
+	font-family: 'roboto', sans-serif;
+}
+
+h1{
+	font-size: $textLg;
+}
+
+h2{
+	font-size: $textMd;
+}
+
+h3{
+	font-size: $textSm;
+}
+
+p{
+	color: $black;
+	line-height: 2em;
+	font-family: 'roboto', sans-serif;
+	font-size: 1.6em;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+}
+
+.p-catalogo{
+	font-size: $textSm;
+}
+
+.btn-color1{
+	background-color: $secondaryColor;
+	color: white;
+}
+
+.svg__size{
+	width: $svg-size;
+	img:hover{
+		color: $white;
+	}
+	
+}

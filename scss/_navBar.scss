@@ -1,0 +1,25 @@
+//navBar
+
+.botonera{
+	background-color: $mainColor;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	img{
+		width: $w-navImg;
+	}
+	ul{
+		display: flex;
+		li{
+			list-style: none;
+			a{
+				color: $white;
+				font-family: 'roboto', sans-serif;
+				font-size: $textSm;
+				&:hover{
+					color: $black;
+				}
+			}
+		}
+	}
+} 
