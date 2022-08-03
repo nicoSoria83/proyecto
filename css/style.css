@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+h1,
+h2,
+h3{
+	font-family: 'roboto', sans-serif;
+}
+
+p{
+	font-family: 'roboto', sans-serif;
+}
+
+
+/*nav*/
+
+#botonera ul li a{
+	font-family: 'roboto', sans-serif;
+}
+
+.nav__img--size{
+	width: 7%;
+}
+
+
+
+/*header*/
+
+.fontSize{
+	font-size: 1.2rem;
+}
+
+/*main*/
+
+.btn-color1{
+	background-color: #07B5B5;
+	color: white;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/*footer*/
+
+.footer{
+	height: ;
+}
+
+.bg__footer{
+	background-color: #07B5B5;
+}
+
+.svg__size{
+	width: 32px;
+}
+
+.footer__position{
+	position: bottom;
+}
