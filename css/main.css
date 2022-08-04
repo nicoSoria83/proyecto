@@ -78,16 +78,23 @@ p {
   font-size: 1em;
 }
 
-.btn-color1 {
+.btn-color1, .btn-color--grey {
+  font-family: "roboto", sans-serif;
+  font-size: 2em;
   background-color: rgb(44, 158, 181);
-  color: white;
+  color: #F9F5F5;
+  cursor: pointer;
+}
+
+.btn-color--grey {
+  background-color: #454646;
 }
 
 .svg__size {
   width: 32px;
 }
 .svg__size img:hover {
-  color: #F9F5F5;
+  color: #1B1B1B;
 }
 
 .footer {

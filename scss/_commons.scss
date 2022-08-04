@@ -44,14 +44,22 @@ p{
 }
 
 .btn-color1{
+	font-family: 'roboto', sans-serif;
+	font-size: $textMd;
 	background-color: $secondaryColor;
-	color: white;
+	color: $white;
+	cursor: pointer;
+}
+
+.btn-color--grey{
+	@extend.btn-color1;
+	background-color: #454646;
 }
 
 .svg__size{
 	width: $svg-size;
 	img:hover{
-		color: $white;
+		color: $black;
 	}
 	
 }
