@@ -1,25 +1,40 @@
 //navBar
 
-.botonera{
-	background-color: $mainColor;
-	padding: 5px;
-	display: flex;
-	justify-content: space-between;
-	img{
-		width: $w-navImg;
-	}
-	ul{
-		display: flex;
-		li{
-			list-style: none;
-			a{
-				color: $white;
-				font-family: 'roboto', sans-serif;
-				font-size: $textSm;
-				&:hover{
-					color: $black;
-				}
-			}
-		}
-	}
-} 
+.botonera {
+    background-color: $mainColor;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        @include media(mobile) {
+            width: map-get($map, $img-sizing, $key:'15');
+        }
+
+        @include media(tablet) {
+            width: map-get($map, $img-sizing, $key:'15');
+        }
+
+        @include media(desktop) {
+            width: map-get($map, $img-sizing, $key:'7');
+        }
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            list-style: none;
+
+            a {
+                color: $white;
+                font-family: 'roboto', sans-serif;
+                font-size: $textSm;
+
+                &:hover {
+                    color: $black;
+                }
+            }
+        }
+    }
+}
