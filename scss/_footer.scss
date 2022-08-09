@@ -3,5 +3,10 @@
 .footer{
 	background: $secondaryColor;
 	position: bottom;
-	
+	img{
+		width: map-get($map: $img-sizing, $key:'svg');
+		&:hover{
+			color: $white;
+		}
+	}
 }

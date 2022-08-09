@@ -90,16 +90,46 @@ p {
   background-color: #454646;
 }
 
-.svg__size {
+.svg__size img {
   width: 32px;
 }
 .svg__size img:hover {
+  color: #F9F5F5;
+}
+
+.error404 img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.error404 p {
+  color: #1B1B1B;
+  text-align: center;
+  font-size: 2em;
+  font-family: "roboto", sans-serif;
+}
+.error404 a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 1em;
+  font-family: "roboto", sans-serif;
+}
+.error404 a:hover {
   color: #1B1B1B;
 }
 
 .footer {
   background: rgb(44, 158, 181);
   position: bottom;
+}
+.footer img {
+  width: 32px;
+}
+.footer img:hover {
+  color: #F9F5F5;
 }
 
 /*# sourceMappingURL=main.css.map */

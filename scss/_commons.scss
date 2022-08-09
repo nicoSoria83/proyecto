@@ -57,9 +57,38 @@ p{
 }
 
 .svg__size{
-	width: $svg-size;
-	img:hover{
-		color: $black;
+	img{
+		width: map-get($map: $img-sizing, $key:'svg');
+		&:hover{
+			color: $white;
+		}
+	}	
+}
+
+.error404{
+	img {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		width: map-get($map: $img-sizing, $key:'100');
 	}
-	
+
+	p {
+		color: $black;
+		text-align: center;
+		font-size: $textMd;
+		font-family: 'roboto', sans-serif;
+	}
+
+	a {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+		font-size: $textSm;
+		font-family: 'roboto', sans-serif;
+		&:hover {
+			color: $black;
+		}
+	}
 }
