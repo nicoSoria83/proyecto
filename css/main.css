@@ -79,7 +79,7 @@ p {
 }
 
 .p-catalogo {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 .btn-color1, .btn-color--grey {
@@ -99,6 +99,14 @@ p {
 }
 .svg__size img:hover {
   color: #F9F5F5;
+}
+
+.contacto-img img {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .error404 img {
